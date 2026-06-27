@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Od 14.02.2026 ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="photo-modal" id="photoModal" aria-hidden="true">
+      <div class="photo-modal-backdrop" id="photoModalBackdrop"></div>
+      <div class="photo-modal-content" role="dialog" aria-modal="true">
+        <button class="photo-modal-close" id="photoModalClose" aria-label="Zamknij">×</button>
+        <a id="photoModalDownload" class="photo-modal-download" href="" download="" aria-label="Pobierz zdjęcie">⬇</a>
+        <img id="photoModalImg" src="" alt="" />
+      </div>
+    </div>
+    <a href="#album" class="sidebar-tab">Album</a>
+    <main class="container">
+      <section class="hero">
+        <p class="eyebrow">Romantyczny licznik czasu</p>
+        <h1><strong>Od kiedy jesteśmy razem</strong> ❤️</h1>
+        <p id="statusText" class="status">Minęło od tej daty</p>
+
+        <div class="counter-grid" aria-label="Licznik czasu">
+          <article class="card">
+            <span class="value" id="years">00</span>
+            <span class="label">lata</span>
+          </article>
+          <article class="card">
+            <span class="value" id="months">00</span>
+            <span class="label">miesiące</span>
+          </article>
+          <article class="card">
+            <span class="value" id="days">00</span>
+            <span class="label">dni</span>
+          </article>
+          <article class="card">
+            <span class="value" id="hours">00</span>
+            <span class="label">godziny</span>
+          </article>
+          <article class="card">
+            <span class="value" id="minutes">00</span>
+            <span class="label">minuty</span>
+          </article>
+          <article class="card">
+            <span class="value" id="seconds">00</span>
+            <span class="label">sekundy</span>
+          </article>
+        </div>
+
+        <p class="tagline">Każda sekunda się liczy</p>
+      </section>
+
+      <section id="album" class="album-section">
+        <div class="album-header">
+          <span class="album-label">Album</span>
+          <h2>Wspólne chwile</h2>
+          <p>Nasze wspólne chwile📷🥰</p>
+          <ul class="album-titles">
+          </ul>
+        </div>
+
+        <div class="photo-grid">
+          <article class="photo-card">
+            <img src="photo1.jpg" alt="Zdjęcie 1" />
+            <p>Nasze pierwsze wspólne chwile 💕</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo2.jpg" alt="Zdjęcie 2" />
+            <p>Ulotne chwile razem 🍃</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo3.jpg" alt="Zdjęcie 3" />
+            <p>Najpiękniejsze wspomnienia ✨</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo4.jpg" alt="Zdjęcie 4" />
+            <p>Nasza codzienna radość ☀️</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo5.jpg" alt="Zdjęcie 5" />
+            <p>Magiczne chwile razem 🌙</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo6.jpg" alt="Zdjęcie 6" />
+            <p>Nasze uśmiechy 😊</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo7.jpg" alt="Zdjęcie 7" />
+            <p>Wspomnienia na zawsze 🕊️</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo8.jpg" alt="Zdjęcie 8" />
+            <p>Nasza historia w obrazach 📸</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo9.png" alt="Zdjęcie 9" />
+            <p>Najbardziej spontaniczne chwile 🎈</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo10.jpg" alt="Zdjęcie 10" />
+            <p>Zatrzymane w czasie wspomnienia ⏳</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo11.jpg" alt="Zdjęcie 11" />
+            <p>Tylko my i nasze chwile 👫</p>
+          </article>
+          <article class="photo-card">
+            <img src="photo12.jpg" alt="Zdjęcie 12" />
+            <p>Chwile, które tworzą nas 🌿</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
